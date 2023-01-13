@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; /* centralizou texto centro */
+  margin: 0; /* zerando as margens */
+}/* pego no google fonts */
+
+
+#hero {
+  width: 592px;/* largura do hero */
+  margin: 0 auto 72px;/* deixou alinhado automatico auto "primeiro valor topo, segundo laterais" */
+}
+
+#hero img {
+  margin-bottom: 72px;/* margem que mostra abaixo figma em vermelho */
+}
+
+h1 span {
+  font-weight: bold;/*  foi usado sua fonte que estava figma */
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px; /* tamanho da fonte */
+  line-height: 56px;/*  */
+  font-weight: normal; /* todos texto normal */
+  margin-bottom: 32px;
+}/* pego no figma */
+
+span, a {
+  color: #FF9900;
+  /* eles receberam a cor */
+}
+
+p, #footer {
+  color: #7D7987;
+  font-size: 14px; /* tamanho tudo figma */
+  line-height: 28px;/* espaço linha, tudo figma */
+}
+
+#footer a + a{
+  margin-left: 28px; /* aplicou esquerda */
+}/* a + a pegou os dois A */
+
+.line {
+  width: 568px;
+  height: 0px;
+
+  margin: 0 auto 8px;/* 0 em cima, auto lateral, 8 emabixo" */
+
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;/* fixo no lugar */
+  bottom: 0px;/* fixo emabaixo */
+  right: 0px; /* fixo direita */
+}
